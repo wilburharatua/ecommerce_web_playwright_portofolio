@@ -6,7 +6,7 @@ Repository ini menunjukan end to end automation testing Website E-Commerce Dummy
 Test Case: https://shorturl.at/kV39H
 
 ## Project Structure
-- `tests/`: Terdiri dari file test case yang dibuat sesuai dengan document yang sudah dibuat.
+- `tests/`: Terdiri dari test script yang dibuat sesuai dengan document test case.
 - `pages/`: Terdiri dari file yang berisikan Object dan action apa saja yang diperlukan untuk meng-eksekusi test script.
 - `.env/` : Terdiri dari credentials username dan password untuk login (untuk menjaga kerahasiaan credentials dalam test script.)
   
