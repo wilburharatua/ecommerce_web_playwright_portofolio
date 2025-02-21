@@ -3,7 +3,7 @@
 Repository ini menunjukan end to end automation testing Website E-Commerce Dummy (https://www.saucedemo.com/) menggunakan framwork Playwright dengan bahasa pemrograman Typescript.
 
 ## Document Test Case yang digunakan
-Test Case: (https://docs.google.com/spreadsheets/d/14uSx_zqP_LAVH-4IDUN9yYr3G_uNJEMp6pBTcnKEFNQ/edit?hl=id&gid=0#gid=0)
+Test Case: https://docs.google.com/spreadsheets/d/14uSx_zqP_LAVH-4IDUN9yYr3G_uNJEMp6pBTcnKEFNQ/edit?hl=id&gid=0#gid=0
 
 ## Project Structure
 - `tests/`: Terdiri dari file test case yang dibuat sesuai dengan document yang sudah dibuat.
