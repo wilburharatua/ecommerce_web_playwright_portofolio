@@ -15,5 +15,3 @@ Repository ini menunjukan end to end automation testing Website E-Commerce Dummy
 1. Clone / Download Repository ini
 2. npm install (Untuk menginstal semua paket paket yang terdaftar dalam file package.json)
 3. npm test (Untuk menjalankan semua test)
-
-## Dibuat oleh: Wilbur Haratua
