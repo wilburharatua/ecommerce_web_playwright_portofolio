@@ -17,7 +17,7 @@ test.describe('Test Case Module: Product Page', () => {
         await loginPage.loginWithValidCredentials();
       });
     
-      test('User ingin menambahkan produk kedalam keranjang setelah melihat deskripsi produk', async () => {
+      test('TC_008 User ingin menambahkan produk kedalam keranjang setelah melihat deskripsi produk', async () => {
         await homePage.seeProductDesc();
         await productPage.addToCartFromProductPage();
         await productPage.backToProductsHomePage();

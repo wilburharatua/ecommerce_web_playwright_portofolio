@@ -10,27 +10,27 @@ test.describe('Test Case Module: Login', () => {
         await loginPage.navigateToWebsite();
       });
     
-      test('User melakukan login dengan credential valid', async () => {
+      test('TC_001 User melakukan login dengan credential valid', async () => {
         await loginPage.loginWithValidCredentials();
         await loginPage.verifyLogin();
       });
 
-      test('User melakukan login dengan username invalid', async () => {
+      test('TC_002 User melakukan login dengan username invalid', async () => {
         await loginPage.loginWithInvalidUsername();
         await loginPage.verifyErrorInvalidCredentials();
       });
 
-      test('User melakukan login dengan password invalid', async () => {
+      test('TC_003 User melakukan login dengan password invalid', async () => {
         await loginPage.loginWithInvalidUsername();
         await loginPage.verifyErrorInvalidCredentials();
       });
 
-      test('User melakukan login tanpa mengisi credential', async () => {
+      test('TC_004 User melakukan login tanpa mengisi credential', async () => {
         await loginPage.loginToWebsiteWith('', '');
         await loginPage.verifyErrorEmptyCredentials();
       });
 
-      test('User melakukan logout setelah login', async () => {
+      test('TC_005 User melakukan logout setelah login', async () => {
         await loginPage.loginWithValidCredentials();
         await loginPage.logoutFromWebsite();
         await loginPage.verifyLogout();

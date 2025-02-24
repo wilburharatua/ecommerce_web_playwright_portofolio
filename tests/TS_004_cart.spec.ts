@@ -20,7 +20,7 @@ test.describe('Test Case Module: Cart Page', () => {
         await loginPage.loginWithValidCredentials();
       });
     
-      test('User ingin melakukan checkout produk', async () => {
+      test('TC_009 User ingin melakukan checkout produk', async () => {
         //Dapat menambahkan hingga 6 produk.
         await homePage.addProductsToCart(4);
         await homePage.verifyProductAdded('4')
@@ -29,7 +29,7 @@ test.describe('Test Case Module: Cart Page', () => {
         await homePage.verifyBackToHomePage();
       });
 
-      test('User ingin melakukan checkout produk tanpa mengisi credential first name', async () => {
+      test('TC_010 User ingin melakukan checkout produk tanpa mengisi credential first name', async () => {
         await homePage.addProductsToCart(2);
         await homePage.verifyProductAdded('2')
         await homePage.clickCartIcon();
@@ -37,7 +37,7 @@ test.describe('Test Case Module: Cart Page', () => {
         await cartPage.verifyFirstNameErrorPopup();
       });
 
-      test('User ingin melakukan checkout produk tanpa mengisi credential last name', async () => {
+      test('TC_011 User ingin melakukan checkout produk tanpa mengisi credential last name', async () => {
         await homePage.addProductsToCart(2);
         await homePage.verifyProductAdded('2')
         await homePage.clickCartIcon();
@@ -45,7 +45,7 @@ test.describe('Test Case Module: Cart Page', () => {
         await cartPage.verifyLastNameErrorPopup();
       });
 
-      test('User ingin melakukan checkout produk tanpa mengisi credential Postal Code', async () => {
+      test('TC_012 User ingin melakukan checkout produk tanpa mengisi credential Postal Code', async () => {
         await homePage.addProductsToCart(2);
         await homePage.verifyProductAdded('2')
         await homePage.clickCartIcon();
